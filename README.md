@@ -41,7 +41,7 @@ MediPredict is an innovative machine learning-powered health risk assessment pla
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/medipredict.git
+git clone https://github.com/shubham-635/medipredict.git
 cd medipredict
 ```
 
@@ -108,18 +108,6 @@ python app.py
 - `/api/predict`: Submit health data for risk assessment
 - `/api/health`: Check application and model status
 
-## 🧪 Testing
-
-### Running Tests
-```bash
-pytest tests/
-```
-
-### Test Coverage
-- Unit tests for data preprocessing
-- Model training validation
-- Prediction endpoint testing
-
 ## 🔐 Privacy & Security
 
 - All data processing occurs locally
@@ -139,11 +127,6 @@ medipredict/
 │   └── preprocessor/  # Model preprocessors
 │
 ├── notebooks/         # Jupyter notebooks for exploration
-│
-├── tests/             # Unit and integration tests
-│
-├── visualizations/    # Risk assessment visualizations
-│
 ├── app.py             # Main Flask application
 ├── train_models.py    # Model training script
 ├── setup.py           # Project setup script
@@ -163,15 +146,6 @@ medipredict/
 - Write comprehensive tests
 - Document new features
 - Maintain code quality
-
-## 📜 License
-[Specify your project's license]
-
-## 📞 Contact & Support
-[Your contact information]
-
-## 🙏 Acknowledgements
-- [List any data sources, libraries, or inspirations]
 
 ---
 
